@@ -7,7 +7,7 @@ function ChildC() {
     const gender = useContext(data1);
   return (
     <>
-      <h1>My name is {name} and i am {gender}</h1>
+      <h1>My name is {name} and my gender is {gender}</h1>
     </>
   )
 }
