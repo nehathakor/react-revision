@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import Ref from "./components/Ref";
 
 function App() {
   const [value,setValue] = useState(0);
@@ -16,6 +17,8 @@ function App() {
       <button onClick={() => {
         setData("Sita")
       }}>Click me</button>
+      <br></br>
+      <Ref/>
     </>
   )
 }
