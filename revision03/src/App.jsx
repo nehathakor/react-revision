@@ -1,8 +1,10 @@
-function App() {
+import ChildA from "./ChildA"
 
+function App() {
+  const name = "Jdhhs"
   return (
     <>
-    <p>Hello world</p>
+      <ChildA name={name}/>
     </>
   )
 }
