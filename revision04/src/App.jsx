@@ -5,7 +5,7 @@ const data = createContext()
 const data1 = createContext()
 
 function App() {
-  const name = "Neha"
+  const name = "Nehaa"
   const gender = "Female"
   return (
     <>
